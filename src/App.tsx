@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import "./App.css";
 import { MainLayout } from "./components/templates/main-layout/main-layout";
 import MainPage from "./components/pages/main";
 import ProductsPage from "./components/pages/products";

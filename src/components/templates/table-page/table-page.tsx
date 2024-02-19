@@ -49,7 +49,7 @@ export function TablePage<T>({
   };
 
   return (
-    <div className="flex flex-col gap-6 justify-center p-10">
+    <div className="flex flex-col gap-6 justify-center p-10 my-auto">
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <Heading level="h1">{title}</Heading>
         <Search onChange={handleQueueChange} />
